@@ -46,5 +46,8 @@ git commit -m "wrote a readme file"  # -m 对该次提交的说明
 
 ```bash
 git log #查看提交记录
+git reset --hard HEAD^ # HEAD^表示上一个版本,HEAD^^表示上上个版本 也可以加commit id
+cat 文件名 # 可以显示文件中的内容
+git reflog # 可以记录命令历史
 ```
 
